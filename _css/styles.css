@@ -1,0 +1,109 @@
+/*
+color palette
+https://coolors.co/0a0a0a-f5f5f5-573481-cf5c36-fb980e
+#0A0A0A; - rich black fogra 39
+#F5F5F5; - cultured
+#573481; - spanish violet
+#CF5C36; - flame
+#FB980E; - yellow orange color wheel
+*/
+
+/*------------------------------- global styles -------------------------------*/
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+    color: #F5F5F5;
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, “Segoe UI”, Roboto, Ubuntu, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #0A0A0A;
+}
+
+a {
+    color: #FB980E;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.content-wrap {
+    max-width: 800px;
+    width: 85%;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+/*------------------------------- whaddup -------------------------------*/
+
+.landing {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    color: #F5F5F5;
+    background: none;
+    font-size: 18px;
+    text-decoration: none;
+    text-align: center;
+    padding: 12px;
+    margin-right: 16px;
+    border-width: 2px;
+    border-radius: 32px;
+    min-width: 200px;
+    border-color: #F5F5F5;
+    border-style: solid;
+    display: inline-block;
+}
+
+button:hover {
+    color: #0A0A0A;
+    background: #F5F5F5;
+    cursor: pointer;
+}
+
+/*------------------------------- footer -------------------------------*/
+
+.hmu-set {
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+}
+
+.hmu-list {
+    padding: 0px;
+    display: inline-block;
+}
+
+.hmu-links {
+    list-style-type: none;
+    padding: 0;
+}
+
+.hmu-links a {
+    padding: 0px;
+    display: inline-block;
+}
+
+
+
+/*------------------------------- responsive -------------------------------*/
+
+@media screen and (min-width:750px){
+
+}
+
+@media screen and (max-width:749px) {
+
+}

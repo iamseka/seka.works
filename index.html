@@ -4,35 +4,39 @@
 	<meta charset="utf-8">
 	<title>seka</title>
 	<link href="_css/styles.css" rel="stylesheet" type="">
-	<script src=""></script>
+    <script src="_libraries/clipboard.js-master/dist/clipboard.min.js" async></script>
+	<script src="_scripts/script.js" async></script>
 </head>
 <body>
 <header role="banner">
-  <h1>hello, i'm seka.</h1>
-<!--
-  <h2>me stuff</h2>
-    <nav role="navigation">
-        <ul>
-          <li><a href="index.html" title="home">home</a></li>
-          <li><a href="about.html" title="about">me stuff</a></li>
-          <li><a href="thoughts.html" title="thoughts">thoughts</a></li>
-          <li><a href="bookmarks.html" title="bookmarks">faves</a></li>
-        </ul>
-    </nav> -->
+
 </header>
 
 <main role="main">
     <article>
-        <header>
-<!--            <img src="_img/covid-self-portrait.png" alt="seka in quarantine" title="seka in quarantine, self portrait &lpar;2020&rpar;" width="50%"> -->
-            <p>i draw, build, and ask about things until they become better things, or worse things. that happens too, a lot tbh. i do all that rn <a href="https://cash.app/" target="_blank" title="Cash App">@CashApp</a> as a people person.</p>
+        <header class="landing">
+            <div class="content-wrap">
+                <img src="_img/logo.png" alt="seka's mask" title="the mask of seka, digital pencil &lpar;2020&rpar;" width="16%">
+                <h1>whaddup, i'm <a href="">seka</a>  &mdash;  i <a href="">draw</a>, <a href="">build</a>, and <a href="">question</a> things until they become better things, or worse things. that happens too, a lot tbh. it gets there eventually tho. i do all that rn <a href="https://cash.app/" target="_blank" title="Cash App">@CashApp</a> as a design researcher.</h1>
+
+                <h2>still interested? lol, cool. hmu &mdash;</h2>
+                <section>
+                    <button id="copyEmail" data-clipboard-text="contact@seka.works">copy email</button>
+                    <button onclick="window.open('https://twitter.com/messages/compose?recipient_id=37263332','_blank')">twitter dm</button>
+                </section>
+            </div>
+            
         </header>
 <!--        <section>
             <p>you can learn a lot about how people think through play. the games i play with people teach me how they manage their money. the lessons i pull from those conversations help my design team make better decisions which, in turn, make a better product.</p>
         </section> -->
-        <section>
-            <p>this space will serve as the home of my thoughts and expriments, but more on that later 🚧</p>
-        </section>
+<!--        <section>
+            <div class="content-wrap">
+                <p>this space will serve as bank for my thought experiments 🚧</p>
+                <p>i have no interest in being your diversity hire.</p>
+                <p>for now, you can hmu on everything @iamseka. ngl, i'm not really on the socials like that, but i'm working on it. try me.</p>
+            </div>
+        </section> -->
 <!--         <section>
            <p>before nyc , i drew, built, and asked about shoes at pensole academy in portland, oregon. <strong>why will you include this?</strong></p>
         </section>
@@ -46,23 +50,32 @@
                 <li>another thing</li>
             </ul>
         </section> -->
-        <section>
-            <p>for now, you can hmu on everything @iamseka. ngl, i'm not really on the socials like that, but i'm working on it. try me.</p>
-        </section>
     </article>
 </main>
 
-<footer role="contentinfo">
+<!--<footer role="contentinfo">
+        <div class="hmu-set">
+            <ul class="hmu-list">
+                <li>email</li>
+                <li>twitter</li>
+                <li>instagram</li>
+                <li>soundcloud</li>
+                <li>cash app</li>
+                <li>linkedin</li>
+            </ul>
+            
+            <ul class="hmu-links">
+                <li><a href="mailto:seluga.sekanwagi@gmail.com">hey@seka.works</a></li>
+                <li><a href="https://twitter.com/iamseka" target="_blank">@iamseka</a></li>
+                <li><a href="https://www.instagram.com/iamseka" target="_blank">@iamseka</a></li>
+                <li><a href="https://soundcloud.com/iamseka" target="_blank">/iamseka</a></li>
+                <li><a href="https://cash.app/$iamseka" target="_blank">$iamseka</a></li>
+                <li><a href="https://www.linkedin.com/in/seka" target="_blank">/seka</a></li>
+            </ul>
+        </div>
+    
     <p> handcrafted by seka. &copy; 2020</p>
-    <ul>
-        <li><a href="mailto:seluga.sekanwagi@gmail.com">email</a></li>
-        <li><a href="https://twitter.com/iamseka" target="_blank">twitter</a></li>
-        <li><a href="https://www.instagram.com/iamseka" target="_blank">ig</a></li>
-        <li><a href="https://soundcloud.com/iamseka" target="_blank">soundcloud</a></li>
-        <li><a href="https://www.linkedin.com/in/seka" target="_blank">linkedin</a></li>
-        <li><a href="https://github.com/iamseka" target="_blank">github</a></li>
-        <li>resume</li>
-    </ul>
-</footer>
+</footer>-->
+        <script src="_libraries/clipboard.js-master/dist/clipboard.min.js"></script>
 </body>
 </html>
